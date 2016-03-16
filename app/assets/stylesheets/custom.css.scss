@@ -85,6 +85,9 @@ footer {
     color: $gray;
     &:hover {
       color: $gray-darker;
+        &:visited {
+          color: #fff;
+        }
     }
   }
   small {
@@ -100,7 +103,8 @@ footer {
   }
 }
 
-/* miscellaneous */
+
+/* miscellaneous 
 
 .debug_dump {
   clear: both;
@@ -110,7 +114,7 @@ footer {
   @include box_sizing;
 }
 
-/* sidebar */
+/* sidebar 
 
 aside {
   section.user_info {
@@ -147,7 +151,7 @@ aside {
   margin-top: 15px;
 }
 
-/* forms */
+/* forms 
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
@@ -173,4 +177,4 @@ input {
   .form-control {
     color: $state-danger-text;
   }
-}
+} */

@@ -39,6 +39,8 @@ GEM
     arel (6.0.3)
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.2.0.0)
+      sass (~> 3.2)
     builder (3.2.2)
     byebug (3.4.0)
       columnize (~> 0.8)
@@ -78,6 +80,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.17.1)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -100,6 +103,11 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.4)
     railties (4.2.2)
       actionpack (= 4.2.2)
       activesupport (= 4.2.2)
@@ -148,11 +156,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.2.0.0)
   byebug (= 3.4.0)
   coffee-rails (= 4.1.0)
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
+  pg (= 0.17.1)
   rails (= 4.2.2)
+  rails_12factor (= 0.0.2)
   sass-rails (= 5.0.2)
   sdoc (= 0.4.0)
   spring (= 1.1.3)
