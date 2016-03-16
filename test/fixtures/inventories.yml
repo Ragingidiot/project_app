@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gametitle: MyString
+  gametype: MyString
+  gamerating: MyString
+
+two:
+  gametitle: MyString
+  gametype: MyString
+  gamerating: MyString

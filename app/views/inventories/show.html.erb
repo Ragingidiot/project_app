@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Gametitle:</strong>
+  <%= @inventory.gametitle %>
+</p>
+
+<p>
+  <strong>Gametype:</strong>
+  <%= @inventory.gametype %>
+</p>
+
+<p>
+  <strong>Gamerating:</strong>
+  <%= @inventory.gamerating %>
+</p>
+
+<%= link_to 'Edit', edit_inventory_path(@inventory) %> |
+<%= link_to 'Back', inventories_path %>
